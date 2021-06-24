@@ -3,7 +3,7 @@ Missing Data Generation
 -----------------------
 This folder includes a collection of 20 datasets from [UCI repository](https://archive.ics.uci.edu/ml/index.php) and each is represented in a separate subfolder. Each subfolder contains 12 scenarios of increasing missing data for one dataset. 
 
-To create scenarios for testing with increasing missing data, some values in the training sets are removed completely at random as follows:  Firstly, 10\% (then 20\%, 50\%)  of the attributes are randomly selected to remove data with the following chosen rates 5\%, 15\%, 30\% and 50\% of the records, respectively. 
+To create scenarios for testing with increasing missing data, some values in the training sets are removed completely at random as follows:  Firstly, 10\% (then 20\%, 50\%)  of the attributes are randomly selected to remove data with the following chosen rates 5%, 15%, 30% and 50% of the records, respectively. The table below summarises the experimental scenarios artificially created.
 
 | Scenario#  | % Features selected | % Records affected by missing data |
 | -----------| ------------------- | ------------- |
